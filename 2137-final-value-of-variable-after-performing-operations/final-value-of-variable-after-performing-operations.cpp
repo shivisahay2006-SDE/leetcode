@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     int finalValueAfterOperations(vector<string>& operations) {
@@ -6,8 +5,7 @@ public:
         for (int i = 0; i < operations.size(); i++) {
             if (operations[i][1] == '+') {
                 X++;
-            }
-            else {
+            }else {
                 X--;
             }
         }
